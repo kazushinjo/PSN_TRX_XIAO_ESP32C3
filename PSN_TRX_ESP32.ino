@@ -1,5 +1,5 @@
 /*
- * PSN TRX VFO - ESP32 + Si5351 (二相出力 / Quadrature)
+ * PSN TRX VFO - Arduino Nano R4 + Si5351 (二相出力 / Quadrature)
  * 50.000 ~ 51.000 MHz
  *
  * Libraries (install via Arduino IDE Library Manager):
@@ -7,14 +7,14 @@
  *   - "Adafruit SSD1306" by Adafruit
  *   - "Adafruit GFX Library" by Adafruit
  *
- * Wiring:
- *   Si5351 SDA  -> GPIO21
- *   Si5351 SCL  -> GPIO22
- *   OLED  SDA   -> GPIO21
- *   OLED  SCL   -> GPIO22
- *   Encoder A   -> GPIO32
- *   Encoder B   -> GPIO33
- *   Encoder SW  -> GPIO25
+ * Wiring (Nano R4):
+ *   Si5351 SDA  -> A4
+ *   Si5351 SCL  -> A5
+ *   OLED  SDA   -> A4
+ *   OLED  SCL   -> A5
+ *   Encoder A   -> D2
+ *   Encoder B   -> D3
+ *   Encoder SW  -> D4
  *
  *   Si5351 CLK0 (0°)  -> 100pF -> L6 -> Q9 バランスドモジュレーター
  *   Si5351 CLK1 (90°) -> 100pF -> L7 -> Q10 バランスドモジュレーター
@@ -31,7 +31,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <si5351.h>
-#include <Preferences.h>
+#include <EEPROM.h>
 
 // ---- OLED ----
 #define SCREEN_WIDTH 128
@@ -42,9 +42,9 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 Si5351 si5351;
 
 // ---- Rotary Encoder ----
-#define ENC_A  32
-#define ENC_B  33
-#define ENC_SW 25
+#define ENC_A  2
+#define ENC_B  3
+#define ENC_SW 4
 
 // ---- 周波数設定 ----
 #define FREQ_MIN  50000000L   // 50.000 MHz
@@ -67,11 +67,12 @@ int          lastCount = 0;
 bool         lastBtnState  = HIGH;
 unsigned long lastBtnTime  = 0;
 
-// ---- NVS（周波数記憶） ----
-Preferences prefs;
+// ---- EEPROM アドレス ----
+#define EEPROM_FREQ_ADDR 0
+#define EEPROM_STEP_ADDR 4
 
 // ---- ISR ----
-void IRAM_ATTR encoderISR() {
+void encoderISR() {
   static int lastA = HIGH;
   int a = digitalRead(ENC_A);
   int b = digitalRead(ENC_B);
@@ -140,20 +141,16 @@ void updateDisplay() {
   display.display();
 }
 
-// ---- NVS 保存 ----
+// ---- EEPROM 保存 ----
 void saveFreq() {
-  prefs.begin("vfo", false);
-  prefs.putLong("freq", currentFreq);
-  prefs.putInt("step", stepIndex);
-  prefs.end();
+  EEPROM.put(EEPROM_FREQ_ADDR, currentFreq);
+  EEPROM.put(EEPROM_STEP_ADDR, stepIndex);
 }
 
-// ---- NVS 読み込み ----
+// ---- EEPROM 読み込み ----
 void loadFreq() {
-  prefs.begin("vfo", true);
-  currentFreq = prefs.getLong("freq", FREQ_DEFAULT);
-  stepIndex   = prefs.getInt("step", 2);
-  prefs.end();
+  EEPROM.get(EEPROM_FREQ_ADDR, currentFreq);
+  EEPROM.get(EEPROM_STEP_ADDR, stepIndex);
 
   // 範囲チェック
   if (currentFreq < FREQ_MIN || currentFreq > FREQ_MAX)
@@ -172,8 +169,8 @@ void setup() {
   pinMode(ENC_SW, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(ENC_A), encoderISR, CHANGE);
 
-  // I2C (SDA=21, SCL=22)
-  Wire.begin(21, 22);
+  // I2C (A4=SDA, A5=SCL)
+  Wire.begin();
 
   // OLED 初期化
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {

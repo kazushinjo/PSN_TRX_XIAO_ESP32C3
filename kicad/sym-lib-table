@@ -1,3 +1,7 @@
 (sym_lib_table
-  (lib (name "PSN_TRX")(type "KiCad")(uri "${KIPRJMOD}/PSN_TRX.kicad_sym")(options "")(descr "PSN TRX custom symbols"))
+  (lib (name "PSN_TRX")(type "KiCad")(uri "C:/projects/PSN_TRX_Nano_R4/kicad/PSN_TRX.kicad_sym")(options "")(descr "PSN TRX custom symbols"))
+  (lib (name "Arduino_Nano_R4")(type "KiCad")(uri "C:/projects/PSN_TRX_Nano_R4/kicad/Arduino_Nano_R4.kicad_sym")(options "")(descr "Arduino Nano R4 Symbol"))
+  (lib (name "Si5351A")(type "KiCad")(uri "C:/projects/PSN_TRX_Nano_R4/kicad/Si5351A.kicad_sym")(options "")(descr "Si5351A Clock Generator Symbol"))
+  (lib (name "Si5351_DIP8")(type "KiCad")(uri "C:/projects/PSN_TRX_Nano_R4/kicad/Si5351_DIP8.kicad_sym")(options "")(descr "Si5351 DIP-8 Module Symbol"))
+  (lib (name "Arduino")(type "KiCad")(uri "C:/Users/shinjo/AppData/Roaming/kicad/libraries/arduino-kicad-library/symbols/arduino-library.kicad_sym")(options "")(descr "Arduino Boards Library"))
 )
