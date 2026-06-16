@@ -55,9 +55,9 @@ FP = {
     'SW2': 'Button_Switch_THT:SW_E-Switch_EG1271_SPDT',
     'SW3': 'Button_Switch_THT:SW_E-Switch_EG1271_SPDT',
 
-    # --- Potentiometers ---
-    **{r: 'Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical' for r in
-        ['VR1', 'VR2', 'VR3', 'VR4', 'VR5']},
+    # --- Potentiometers (VR1/VR2 は on_board no のため除外) ---
+    **{r: 'PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical' for r in
+        ['VR3', 'VR4', 'VR5', 'VR6', 'VR7']},
 
     # --- Microphone (pin header connector) ---
     'MIC1': 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical',
@@ -162,3 +162,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
