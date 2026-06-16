@@ -60,7 +60,7 @@ COMP_RF_AMP = [
     ("Q1",   "3SK59",     "Transistor_FET:3SK263",      177.80,  93.98,  0, "高周波増幅"),
     ("R1",   "120k",      "Device:R",                   193.04, 116.84,  0, "G2バイアス上"),
     ("R14",  "20k",       "Device:R",                   193.04, 137.16,  0, "G2バイアス下"),
-    ("VR1",  "5k",        "Device:R_Potentiometer",     172.72, 160.02,  0, "AGC調整"),
+    ("VR1",  "5k",        "Device:R_Potentiometer",     172.72, 160.02,  0, "AGC調整",    "no",  "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"),
     ("C102", "0.01u",     "Device:C",                   172.72, 175.26,  0, "VR1バイパス"),
     ("C103", "0.01u",     "Device:C",                   182.88, 132.08,  0, "Q1ソースGND"),
     ("C2",   "15p",       "Device:C",                   215.90, 106.68,  0, "ドレイン結合"),
@@ -95,7 +95,7 @@ COMP_AF_AMP = [
     ("R12",  "10k",       "Device:R",                   558.80,  76.20, 0, ""),
     ("R15",  "100",       "Device:R",                   553.72, 137.16, 0, "SP抵抗"),
     ("R43",  "330",       "Device:R",                   503.94, 142.24, 0, ""),
-    ("VR2",  "10k",       "Device:R_Potentiometer",     495.30, 157.48, 0, "音量調整"),
+    ("VR2",  "10k",       "Device:R_Potentiometer",     495.30, 157.48, 0, "音量調整",   "no",  "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"),
     ("C4",   "0.1u",      "Device:C",                   462.28,  99.06, 0, ""),
     ("C5",   "10u",       "Device:C",                   457.20, 152.40, 0, ""),
     ("C6",   "0.1u",      "Device:C",                   505.46,  88.90, 0, ""),
@@ -206,8 +206,8 @@ COMP_BAL_MOD = [
     ("C19",  "33p",       "Device:C",                   388.62, 459.74, 0, ""),
     ("C20",  "0.001u",    "Device:C",                   391.16, 492.76, 0, ""),
     ("C21",  "0.001u",    "Device:C",                   338.58, 492.76, 0, ""),
-    ("VR4",  "1k",        "Device:R_Potentiometer",     419.10, 477.52, 0, "キャリア調整"),
-    ("VR5",  "1k",        "Device:R_Potentiometer",     411.48, 490.22, 0, ""),
+    ("VR4",  "1k",        "Device:R_Potentiometer",     419.10, 477.52, 0, "キャリア調整", "yes", "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"),
+    ("VR5",  "1k",        "Device:R_Potentiometer",     411.48, 490.22, 0, "",              "yes", "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"),
     ("L10",  "1mH",       "Device:L",                   323.34, 487.68,  0, ""),
     ("L9",   "1mH",       "Device:L",                   328.42, 536.58,  0, ""),
     ("D1",   "1N60",      "Device:D",                   348.74, 502.92,  0, "平衡変調"),
@@ -232,7 +232,7 @@ COMP_AF_PSN = [
     ("R26",  "10k",       "Device:R",                   563.88, 472.44, 0, ""),
     ("R25",  "10k",       "Device:R",                   528.32, 472.44, 0, ""),
     ("R28",  "1M",        "Device:R",                   523.24, 480.06, 0, ""),
-    ("VR3",  "10k",       "Device:R_Potentiometer",     568.96, 495.30, 0, "位相調整"),
+    ("VR3",  "10k",       "Device:R_Potentiometer",     568.96, 495.30, 0, "位相調整",   "yes", "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"),
     ("C15",  "10u",       "Device:C",                   599.44, 462.28, 0, ""),
     ("C16",  "0.1u",      "Device:C",                   553.72, 508.00, 0, ""),
     ("R30",  "22",        "Device:R",                   515.62, 508.00, 0, ""),
@@ -319,7 +319,7 @@ def mm(v):
 # ============================================================
 # KiCad出力
 # ============================================================
-def write_component(ref, value, lib_sym, x, y, rot, desc):
+def write_component(ref, value, lib_sym, x, y, rot, desc, on_board="yes", footprint=""):
     u = gen_uuid()
     lines = [
         f'  (symbol',
@@ -328,7 +328,7 @@ def write_component(ref, value, lib_sym, x, y, rot, desc):
         f'    (unit 1)',
         f'    (exclude_from_sim no)',
         f'    (in_bom yes)',
-        f'    (on_board yes)',
+        f'    (on_board {on_board})',
         f'    (dnp no)',
         f'    (fields_autoplaced yes)',
         f'    (uuid "{u}")',
@@ -340,7 +340,7 @@ def write_component(ref, value, lib_sym, x, y, rot, desc):
         f'      (at {mm(x)} {mm(y+3.81)} 0)',
         f'      (effects (font (size 1.27 1.27)))',
         f'    )',
-        f'    (property "Footprint" ""',
+        f'    (property "Footprint" "{footprint}"',
         f'      (at {mm(x)} {mm(y)} 0)',
         f'      (effects (font (size 1.27 1.27)) (hide yes))',
         f'    )',
@@ -425,8 +425,10 @@ def main():
 
     # 部品
     for comp in ALL_COMPONENTS:
-        ref, value, lib_sym, x, y, rot, desc = comp
-        lines.append(write_component(ref, value, lib_sym, x, y, rot, desc))
+        ref, value, lib_sym, x, y, rot, desc = comp[:7]
+        on_board  = comp[7] if len(comp) > 7 else "yes"
+        footprint = comp[8] if len(comp) > 8 else ""
+        lines.append(write_component(ref, value, lib_sym, x, y, rot, desc, on_board, footprint))
         lines.append("")
 
     lines.append(")")
@@ -440,3 +442,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
