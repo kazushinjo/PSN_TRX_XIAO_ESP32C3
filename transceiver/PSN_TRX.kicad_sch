@@ -15403,7 +15403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
 			(at 565.15 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -17401,7 +17401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
 			(at 382.27 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -19993,7 +19993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
 			(at 382.27 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -30553,3 +30553,4 @@
 		(uuid "3e77858c-fc1b-47c6-9cce-0a36e9068eda")
 	)
 )
+
