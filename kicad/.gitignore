@@ -2,6 +2,7 @@
 *.lck
 *-backups/
 _autosave-*
+_restore_backup_*/
 *.bak
 *.kicad_prl
 

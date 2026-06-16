@@ -8,7 +8,7 @@
 		(title "50Mhz PSN トランシーバ")
 	)
 	(lib_symbols
-		(symbol "AE_LCNV4_MOSFET:AE-LCNV4-MOSFET"
+		(symbol "PSN_TRX:AE-LCNV4-MOSFET"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -576,7 +576,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Arduino_Nano_R4:Arduino_Nano_R4_Socket"
+		(symbol "PSN_TRX:Arduino_Nano_R4_Socket"
 			(pin_names
 				(offset 1.5)
 			)
@@ -4427,6 +4427,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LP2950-3.3_TO92"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP2950-3.3_TO92"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2950.pdf"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Micropower Voltage Regulator 100mA Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LP2950-3.3_TO92_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LP2950-3.3_TO92_1_1"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:MC78L05_TO92"
 			(pin_names
 				(offset 0.254)
@@ -5128,7 +5285,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Si5351_DIP8:Si5351_DIP8"
+		(symbol "PSN_TRX:Si5351_DIP8"
 			(pin_names
 				(offset 1.016)
 			)
@@ -19146,7 +19303,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Arduino_Nano_R4:Arduino_Nano_R4_Socket")
+		(lib_id "PSN_TRX:Arduino_Nano_R4_Socket")
 		(at 749.3 339.09 0)
 		(mirror y)
 		(unit 1)
@@ -19314,7 +19471,91 @@
 		)
 	)
 	(symbol
-		(lib_id "AE_LCNV4_MOSFET:AE-LCNV4-MOSFET")
+		(lib_id "Regulator_Linear:LP2950-3.3_TO92")
+		(at 711.2 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "621d0707-d086-483a-a767-70c34243e3e2")
+		(property "Reference" "U3"
+			(at 711.2 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP2950-3.3_TO92"
+			(at 711.2 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 711.2 220.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2950.pdf"
+			(at 711.2 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"
+			(at 711.2 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "931760fe-b2d3-4d31-b630-f1b63c62a4c5")
+		)
+		(pin "1"
+			(uuid "2d640b9e-1caf-407d-ae78-78c7f0d0d93e")
+		)
+		(pin "3"
+			(uuid "8314a494-3f7b-43ca-81f3-6011e27ad8cd")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSN_TRX:AE-LCNV4-MOSFET")
 		(at 711.2 335.28 0)
 		(mirror y)
 		(unit 1)
@@ -20708,7 +20949,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6de2d226-7b8c-4aa9-b12f-60e0ae126689")
@@ -23288,7 +23529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Si5351_DIP8:Si5351_DIP8")
+		(lib_id "PSN_TRX:Si5351_DIP8")
 		(at 665.48 328.93 180)
 		(unit 1)
 		(body_style 1)
@@ -24615,7 +24856,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25303,7 +25544,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25548,7 +25789,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)

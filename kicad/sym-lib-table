@@ -1,7 +1,3 @@
 (sym_lib_table
   (lib (name "PSN_TRX")(type "KiCad")(uri "${KIPRJMOD}/PSN_TRX.kicad_sym")(options "")(descr "PSN TRX custom symbols"))
-  (lib (name "Arduino_Nano_R4")(type "KiCad")(uri "${KIPRJMOD}/Arduino_Nano_R4.kicad_sym")(options "")(descr "Arduino Nano R4 Symbol"))
-  (lib (name "Si5351A")(type "KiCad")(uri "${KIPRJMOD}/Si5351A.kicad_sym")(options "")(descr "Si5351A Clock Generator Symbol"))
-  (lib (name "Si5351_DIP8")(type "KiCad")(uri "${KIPRJMOD}/Si5351_DIP8.kicad_sym")(options "")(descr "Si5351 DIP-8 Module Symbol"))
-  (lib (name "AE_LCNV4_MOSFET")(type "KiCad")(uri "${KIPRJMOD}/AE_LCNV4_MOSFET.kicad_sym")(options "")(descr "Akizuki AE-LCNV4-MOSFET 4ch Level Shifter"))
 )
