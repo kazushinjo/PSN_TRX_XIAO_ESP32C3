@@ -8,302 +8,6 @@
 		(title "50Mhz PSN トランシーバ")
 	)
 	(lib_symbols
-		(symbol "PSN_TRX:AE-LCNV4-MOSFET"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Value" "AE-LCNV4-MOSFET"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Footprint" "PSN_TRX:DIP-12_W7.62mm"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Description" "4ch bidirectional level shifter MOSFET, HV=5V LV=3.3V, DIP-12"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AE-LCNV4-MOSFET_0_1"
-				(rectangle
-					(start -5.08 -8.89)
-					(end 5.08 8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AE-LCNV4-MOSFET_1_1"
-				(pin bidirectional line
-					(at -10.16 3.81 0)
-					(length 5.08)
-					(name "HV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 1.27 0)
-					(length 5.08)
-					(name "HV2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -6.35 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 6.35 0)
-					(length 5.08)
-					(name "HV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -1.27 0)
-					(length 5.08)
-					(name "HV3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 -3.81 0)
-					(length 5.08)
-					(name "HV4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -3.81 180)
-					(length 5.08)
-					(name "LV4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -1.27 180)
-					(length 5.08)
-					(name "LV3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 6.35 180)
-					(length 5.08)
-					(name "LV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -6.35 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 1.27 180)
-					(length 5.08)
-					(name "LV2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 3.81 180)
-					(length 5.08)
-					(name "LV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:LM2904"
 			(pin_names
 				(offset 0.127)
@@ -569,640 +273,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PSN_TRX:Arduino_Nano_R4_Socket"
-			(pin_names
-				(offset 1.5)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "A"
-				(at 0 36.83 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Value" "Arduino_Nano_R4_Socket"
-				(at 0 33.02 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Footprint" "PSN_TRX:Arduino_Nano_R4_Socket"
-				(at 0 -38.1 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Datasheet" "https://docs.arduino.cc/hardware/nano-r4/"
-				(at 0 -34.29 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Description" "Arduino Nano R4 with Renesas RA4M1 MCU"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Arduino Nano Renesas R4"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Arduino_Nano_R4_Socket_0_1"
-				(rectangle
-					(start -17.78 30.48)
-					(end 17.78 -30.48)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Arduino_Nano_R4_Socket_1_1"
-				(pin passive line
-					(at -20.32 27.94 0)
-					(length 5.08)
-					(name "D1/TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 25.4 0)
-					(length 5.08)
-					(name "D0/RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 22.86 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 20.32 0)
-					(length 5.08)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 17.78 0)
-					(length 5.08)
-					(name "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 15.24 0)
-					(length 5.08)
-					(name "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 12.7 0)
-					(length 5.08)
-					(name "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 10.16 0)
-					(length 5.08)
-					(name "D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 7.62 0)
-					(length 5.08)
-					(name "D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 5.08 0)
-					(length 5.08)
-					(name "D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 2.54 0)
-					(length 5.08)
-					(name "D9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 0 0)
-					(length 5.08)
-					(name "D10/SS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -2.54 0)
-					(length 5.08)
-					(name "D11/MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -5.08 0)
-					(length 5.08)
-					(name "D12/MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -7.62 0)
-					(length 5.08)
-					(name "D13/LED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -10.16 0)
-					(length 5.08)
-					(name "3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -12.7 0)
-					(length 5.08)
-					(name "AREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -20.32 -15.24 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 2.54 180)
-					(length 5.08)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 5.08 180)
-					(length 5.08)
-					(name "A5/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 7.62 180)
-					(length 5.08)
-					(name "A4/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 12.7 180)
-					(length 5.08)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 15.24 180)
-					(length 5.08)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 17.78 180)
-					(length 5.08)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 20.32 180)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 22.86 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 25.4 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 0.5 0.5)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 27.94 180)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 0.5 0.5)
 							)
 						)
 					)
@@ -3900,6 +2970,936 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PSN_TRX:AE-LCNV4-MOSFET"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "AE-LCNV4-MOSFET"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PSN_TRX:DIP-12_W7.62mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "4ch bidirectional level shifter MOSFET, HV=5V LV=3.3V, DIP-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AE-LCNV4-MOSFET_0_1"
+				(rectangle
+					(start -5.08 -8.89)
+					(end 5.08 8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AE-LCNV4-MOSFET_1_1"
+				(pin bidirectional line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "HV1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "HV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -6.35 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 6.35 0)
+					(length 5.08)
+					(name "HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "HV3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "HV4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -3.81 180)
+					(length 5.08)
+					(name "LV4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -1.27 180)
+					(length 5.08)
+					(name "LV3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 6.35 180)
+					(length 5.08)
+					(name "LV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -6.35 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "LV2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 3.81 180)
+					(length 5.08)
+					(name "LV1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PSN_TRX:Arduino_Nano_R4_Socket"
+			(pin_names
+				(offset 1.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "A"
+				(at 0 36.83 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "Arduino_Nano_R4_Socket"
+				(at 0 33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PSN_TRX:Arduino_Nano_R4_Socket"
+				(at 0 -38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://docs.arduino.cc/hardware/nano-r4/"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "Arduino Nano R4 with Renesas RA4M1 MCU"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Arduino Nano Renesas R4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_R4_Socket_0_1"
+				(rectangle
+					(start -17.78 30.48)
+					(end 17.78 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Arduino_Nano_R4_Socket_1_1"
+				(pin passive line
+					(at -20.32 27.94 0)
+					(length 5.08)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 25.4 0)
+					(length 5.08)
+					(name "D0/RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 22.86 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 20.32 0)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "D10/SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "D11/MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "D12/MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "D13/LED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -12.7 0)
+					(length 5.08)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "A5/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "A4/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 20.32 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 25.4 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 27.94 180)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 0.5 0.5)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PSN_TRX:I2C_OUT"
 			(pin_numbers
 				(hide yes)
@@ -4417,6 +4417,406 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PSN_TRX:Potentiometer_GF063P"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "VR"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "GF063P"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://akizukidenshi.com/goodsaffix/gf063_series-1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "TOCOS GF063P 6mm Square Cermet Trimmer Potentiometer, Top Adjust, 3-pin triangular P2.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Potentiometer_GF063P_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Potentiometer_GF063P_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PSN_TRX:Si5351_DIP8"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Value" "Si5351_DIP8"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Footprint" "PSN_TRX:DIP-8_W7.62mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Datasheet" "https://akizukidenshi.com/goodsaffix/AE-Si5351A.PDF"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.524 1.524)
+						(thickness 0.15)
+					)
+				)
+			)
+			(property "Description" "Si5351A Programmable Clock Generator Module, 3-Channel Output, I2C Control, DIP-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Si5351A DIP-8 Clock Generator Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Si5351_DIP8_0_1"
+				(rectangle
+					(start -5.08 9.144)
+					(end 5.08 -9.144)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Si5351_DIP8_1_1"
+				(pin power_in line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "VDDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "CLK0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "CLK1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "CLK2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5275,244 +5675,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PSN_TRX:Si5351_DIP8"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Value" "Si5351_DIP8"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Footprint" "PSN_TRX:DIP-8_W7.62mm"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Datasheet" "https://akizukidenshi.com/goodsaffix/AE-Si5351A.PDF"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-						(thickness 0.15)
-					)
-				)
-			)
-			(property "Description" "Si5351A Programmable Clock Generator Module, 3-Channel Output, I2C Control, DIP-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Si5351A DIP-8 Clock Generator Module"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Si5351_DIP8_0_1"
-				(rectangle
-					(start -5.08 9.144)
-					(end 5.08 -9.144)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Si5351_DIP8_1_1"
-				(pin power_in line
-					(at -7.62 7.62 0)
-					(length 2.54)
-					(name "VDDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 5.08 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "CLK0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "CLK1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 5.08 180)
-					(length 2.54)
-					(name "CLK2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7410,6 +7572,12 @@
 		(uuid "1dc3cba1-b775-41e2-809c-6564e9d7dce5")
 	)
 	(junction
+		(at 196.85 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e646dc7-d98d-4849-97c8-8a4c15d4c551")
+	)
+	(junction
 		(at 405.13 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7458,6 +7626,12 @@
 		(uuid "2b7c3994-285d-4d76-a094-6648c0a66b79")
 	)
 	(junction
+		(at 655.32 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c6b43dc-b9ca-4c4f-9851-2b87684e9076")
+	)
+	(junction
 		(at 538.48 427.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7482,12 +7656,6 @@
 		(uuid "3392dc8e-defd-445e-9961-d7af1f0476fe")
 	)
 	(junction
-		(at 187.96 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33aeb8b5-0dfd-4e55-8b08-869dbd66afe1")
-	)
-	(junction
 		(at 601.98 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7498,12 +7666,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37f80102-21a0-429e-a8ba-81c9066aab39")
-	)
-	(junction
-		(at 194.31 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f88d98b-563e-4431-92e2-17b162a8d25f")
 	)
 	(junction
 		(at 709.93 408.94)
@@ -7602,12 +7764,6 @@
 		(uuid "682feecc-f557-4306-b285-1cc5559ba84e")
 	)
 	(junction
-		(at 201.93 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d02f14e-2cf4-4d56-acc4-b579218d7c86")
-	)
-	(junction
 		(at 520.7 461.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7618,12 +7774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76b66ec0-834f-46d9-92ef-b9fefda9ad9e")
-	)
-	(junction
-		(at 654.05 194.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a1b93a0-23d0-48f7-9af9-6db19236a7c6")
 	)
 	(junction
 		(at 215.9 132.08)
@@ -7648,6 +7798,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80cecde3-cf1b-4ce8-a9bd-0cfff3a1f35c")
+	)
+	(junction
+		(at 693.42 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82f44e80-2bb7-4459-baf0-ec2708d89a6d")
 	)
 	(junction
 		(at 454.66 232.41)
@@ -7696,6 +7852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94b2619a-3a4c-4de1-9282-b86416056f83")
+	)
+	(junction
+		(at 208.28 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f3a7e8-dc4b-4bb0-8341-b6793d702871")
 	)
 	(junction
 		(at 276.86 316.23)
@@ -7812,6 +7974,12 @@
 		(uuid "c6f490ab-156a-4bb8-9d6d-1a32bc2a0245")
 	)
 	(junction
+		(at 655.32 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9bfe01e-d895-4f70-bd5d-d4f7b8864a0b")
+	)
+	(junction
 		(at 473.71 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7828,6 +7996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce810b6f-1451-41bb-9114-f99596a7da45")
+	)
+	(junction
+		(at 655.32 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf61af2f-c1c9-472d-8559-740c64ab1595")
 	)
 	(junction
 		(at 336.55 271.78)
@@ -7866,12 +8040,6 @@
 		(uuid "d7a16626-44d6-4429-94a9-45850897ac30")
 	)
 	(junction
-		(at 654.05 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db80b145-1e25-4518-8d71-0394256a1f8c")
-	)
-	(junction
 		(at 402.59 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7890,10 +8058,22 @@
 		(uuid "e41cc800-4af8-4e5b-a0ae-64f5833645e9")
 	)
 	(junction
+		(at 693.42 328.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6642c13-f23f-4ee8-be6f-8e5cfc02ba38")
+	)
+	(junction
 		(at 341.63 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e924ea22-6452-45db-b1e3-80a491511d34")
+	)
+	(junction
+		(at 675.64 313.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a7e906-6835-409f-91e5-81bdd4090d83")
 	)
 	(junction
 		(at 618.49 358.14)
@@ -8091,7 +8271,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 194.31) (xy 654.05 194.31)
+			(xy 151.13 194.31) (xy 655.32 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8158,16 +8338,6 @@
 			(type default)
 		)
 		(uuid "03fa1f87-2f68-44df-916c-1d5ebbb54e0d")
-	)
-	(wire
-		(pts
-			(xy 208.28 127) (xy 194.31 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0401098b-c8f8-4703-843d-cfefaf2b4c56")
 	)
 	(wire
 		(pts
@@ -8401,6 +8571,16 @@
 	)
 	(wire
 		(pts
+			(xy 668.02 261.62) (xy 655.32 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132999cd-d6fa-419a-b06c-b49f125835e3")
+	)
+	(wire
+		(pts
 			(xy 528.32 226.06) (xy 528.32 328.93)
 		)
 		(stroke
@@ -8448,16 +8628,6 @@
 			(type default)
 		)
 		(uuid "17622be6-4fbd-46fb-911a-5c781a8f4719")
-	)
-	(wire
-		(pts
-			(xy 655.32 194.31) (xy 655.32 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1772d28b-3719-4d5d-ae23-d1424e0d2fdc")
 	)
 	(wire
 		(pts
@@ -8531,7 +8701,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 151.13) (xy 201.93 162.56)
+			(xy 208.28 151.13) (xy 208.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8571,6 +8741,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 156.21) (xy 194.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd29f08-d82e-4d87-bd06-02e73a3a6859")
+	)
+	(wire
+		(pts
 			(xy 464.82 123.19) (xy 464.82 125.73)
 		)
 		(stroke
@@ -8598,16 +8778,6 @@
 			(type default)
 		)
 		(uuid "2149d90b-7114-4e8d-8483-a0535adb4905")
-	)
-	(wire
-		(pts
-			(xy 194.31 127) (xy 194.31 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d8e651-442e-47d4-b094-cab50f21a301")
 	)
 	(wire
 		(pts
@@ -8921,6 +9091,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 153.67) (xy 196.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351b1636-7d7e-4aab-935f-3e9ac59d687c")
+	)
+	(wire
+		(pts
 			(xy 601.98 358.14) (xy 608.33 358.14)
 		)
 		(stroke
@@ -8958,6 +9138,16 @@
 			(type default)
 		)
 		(uuid "35f7f3cd-731c-4ff5-8f49-da9cfe574ced")
+	)
+	(wire
+		(pts
+			(xy 675.64 269.24) (xy 675.64 313.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36000af1-d714-4393-b211-e12b8a88119b")
 	)
 	(wire
 		(pts
@@ -9151,16 +9341,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 137.16) (xy 187.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43b0b5a4-ba4a-4610-a180-566e73af9d02")
-	)
-	(wire
-		(pts
 			(xy 538.48 408.94) (xy 586.74 408.94)
 		)
 		(stroke
@@ -9181,7 +9361,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 140.97) (xy 209.55 143.51)
+			(xy 209.55 142.24) (xy 209.55 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9328,6 +9508,16 @@
 			(type default)
 		)
 		(uuid "4d476da4-afd1-4659-85bf-2efeb2dea502")
+	)
+	(wire
+		(pts
+			(xy 655.32 261.62) (xy 655.32 295.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7a957c-9225-4c55-9d40-1540bf304404")
 	)
 	(wire
 		(pts
@@ -9621,7 +9811,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 127) (xy 194.31 127)
+			(xy 187.96 127) (xy 196.85 127)
 		)
 		(stroke
 			(width 0)
@@ -9861,6 +10051,16 @@
 	)
 	(wire
 		(pts
+			(xy 655.32 194.31) (xy 655.32 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658c5fff-4a32-4b1f-ae63-7c592c29de7d")
+	)
+	(wire
+		(pts
 			(xy 416.56 363.22) (xy 421.64 363.22)
 		)
 		(stroke
@@ -9928,16 +10128,6 @@
 			(type default)
 		)
 		(uuid "68c367b7-b342-4450-b195-048dcab1c5eb")
-	)
-	(wire
-		(pts
-			(xy 187.96 137.16) (xy 187.96 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "691756b4-88af-40b2-8408-53d3dceccf44")
 	)
 	(wire
 		(pts
@@ -10081,7 +10271,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 133.35) (xy 209.55 132.08)
+			(xy 209.55 134.62) (xy 209.55 132.08)
 		)
 		(stroke
 			(width 0)
@@ -10131,6 +10321,16 @@
 	)
 	(wire
 		(pts
+			(xy 693.42 261.62) (xy 693.42 328.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75704453-226a-4cdb-af78-4874049ebb72")
+	)
+	(wire
+		(pts
 			(xy 725.17 430.53) (xy 725.17 440.69)
 		)
 		(stroke
@@ -10171,7 +10371,7 @@
 	)
 	(wire
 		(pts
-			(xy 654.05 162.56) (xy 654.05 194.31)
+			(xy 655.32 162.56) (xy 655.32 194.31)
 		)
 		(stroke
 			(width 0)
@@ -10231,6 +10431,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 162.56) (xy 231.14 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79602e29-04e8-40e6-9987-82da6a0e458f")
+	)
+	(wire
+		(pts
 			(xy 685.8 334.01) (xy 701.04 334.01)
 		)
 		(stroke
@@ -10278,6 +10488,16 @@
 			(type default)
 		)
 		(uuid "7d225583-3317-4076-8663-119cdcec9576")
+	)
+	(wire
+		(pts
+			(xy 702.31 261.62) (xy 693.42 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ebe5523-e8c7-48c2-bf4b-6189e1da4799")
 	)
 	(wire
 		(pts
@@ -10481,6 +10701,16 @@
 	)
 	(wire
 		(pts
+			(xy 702.31 274.32) (xy 702.31 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8884a743-17fe-45d6-916a-1d22370bea81")
+	)
+	(wire
+		(pts
 			(xy 657.86 331.47) (xy 651.51 331.47)
 		)
 		(stroke
@@ -10561,16 +10791,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 137.16) (xy 187.96 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f98df67-787e-43e4-8064-a1c5670efc13")
-	)
-	(wire
-		(pts
 			(xy 246.38 513.08) (xy 246.38 508)
 		)
 		(stroke
@@ -10591,7 +10811,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.56) (xy 201.93 162.56)
+			(xy 135.89 162.56) (xy 208.28 162.56)
 		)
 		(stroke
 			(width 0)
@@ -10671,16 +10891,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 162.56) (xy 231.14 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974f287e-e73f-44d5-aa99-0b54ebc35ace")
-	)
-	(wire
-		(pts
 			(xy 628.65 467.36) (xy 628.65 443.23)
 		)
 		(stroke
@@ -10688,6 +10898,16 @@
 			(type default)
 		)
 		(uuid "98efb0e5-4df2-455f-9489-1b928f154a4c")
+	)
+	(wire
+		(pts
+			(xy 207.01 151.13) (xy 208.28 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99219128-b233-44ab-878e-36ba8a13e004")
 	)
 	(wire
 		(pts
@@ -11001,13 +11221,13 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 201.93 143.51)
+			(xy 196.85 127) (xy 208.28 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac6292f4-2994-4823-8596-ee8511477e44")
+		(uuid "ac25d425-e1f9-49e9-ac9d-2a6c0f470464")
 	)
 	(wire
 		(pts
@@ -11118,6 +11338,16 @@
 			(type default)
 		)
 		(uuid "b1ee0d8c-ad55-40b5-b418-4381c0401089")
+	)
+	(wire
+		(pts
+			(xy 193.04 156.21) (xy 194.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2681377-10b9-4b0e-8042-bb597fd03257")
 	)
 	(wire
 		(pts
@@ -11271,6 +11501,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 153.67) (xy 196.85 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf0d09b-a14b-4c96-98ae-4dc186361907")
+	)
+	(wire
+		(pts
 			(xy 217.17 358.14) (xy 217.17 360.68)
 		)
 		(stroke
@@ -11331,7 +11571,7 @@
 	)
 	(wire
 		(pts
-			(xy 654.05 157.48) (xy 654.05 162.56)
+			(xy 655.32 157.48) (xy 655.32 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11491,7 +11731,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 128.27) (xy 187.96 127)
+			(xy 187.96 129.54) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -11631,7 +11871,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 162.56) (xy 654.05 162.56)
+			(xy 626.11 162.56) (xy 655.32 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11881,6 +12121,16 @@
 	)
 	(wire
 		(pts
+			(xy 683.26 261.62) (xy 693.42 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab9cd0b-76d9-4c28-9f53-9f0a20042096")
+	)
+	(wire
+		(pts
 			(xy 435.61 218.44) (xy 454.66 218.44)
 		)
 		(stroke
@@ -12021,16 +12271,6 @@
 	)
 	(wire
 		(pts
-			(xy 655.32 194.31) (xy 654.05 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2fde661-1749-45b4-b91d-d4095f72a88a")
-	)
-	(wire
-		(pts
 			(xy 459.74 125.73) (xy 459.74 123.19)
 		)
 		(stroke
@@ -12138,6 +12378,26 @@
 			(type default)
 		)
 		(uuid "e7733115-1451-4da8-aa2a-0750083917ca")
+	)
+	(wire
+		(pts
+			(xy 702.31 265.43) (xy 702.31 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83aadb6-e836-45a6-bad0-2dcb0ed392ca")
+	)
+	(wire
+		(pts
+			(xy 193.04 151.13) (xy 199.39 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea88d6c9-860c-4b78-b0a8-f12459867fe7")
 	)
 	(wire
 		(pts
@@ -12378,16 +12638,6 @@
 			(type default)
 		)
 		(uuid "f845adb8-fc62-4b40-b44e-e45d6fae0cc0")
-	)
-	(wire
-		(pts
-			(xy 198.12 137.16) (xy 201.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f84c1792-adf4-4c28-a450-eac5ae2803b3")
 	)
 	(wire
 		(pts
@@ -14009,6 +14259,92 @@
 		)
 	)
 	(symbol
+		(lib_id "PSN_TRX:Potentiometer_GF063P")
+		(at 612.14 358.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12de08db-b937-47bf-94da-6c8af93c3f23")
+		(property "Reference" "VR7"
+			(at 611.632 350.774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 616.966 350.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+			(at 612.14 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/gf063_series-1.pdf"
+			(at 612.14 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "TOCOS GF063P 6mm Square Cermet Trimmer Potentiometer, Top Adjust, 3-pin triangular P2.5mm"
+			(at 612.14 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c834b3-4a37-49fe-9445-149c51581bb1")
+		)
+		(pin "2"
+			(uuid "69dc5885-3c56-4cec-ae48-68b1d3a47e16")
+		)
+		(pin "3"
+			(uuid "57a0025f-1676-48c2-9fc8-06852be3ff91")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "VR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 435.61 232.41 0)
 		(unit 1)
@@ -14342,7 +14678,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 194.31 137.16 90)
+		(at 158.75 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14353,7 +14689,7 @@
 		(fields_autoplaced yes)
 		(uuid "1837fce6-0639-4244-bb92-6d9f0356d627")
 		(property "Reference" "VR1"
-			(at 194.31 140.97 90)
+			(at 158.75 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14363,7 +14699,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 194.31 143.51 90)
+			(at 158.75 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14373,7 +14709,7 @@
 			)
 		)
 		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 194.31 137.16 0)
+			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14384,7 +14720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 137.16 0)
+			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14395,7 +14731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 137.16 0)
+			(at 158.75 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14405,7 +14741,7 @@
 			)
 		)
 		(property "ki_description" "AGC調整"
-			(at 194.31 137.16 0)
+			(at 158.75 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15636,8 +15972,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 612.14 358.14 90)
+		(lib_id "Device:C_Polarized")
+		(at 702.31 269.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15645,9 +15981,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "29f82b96-edff-4fcc-bb7f-bec28352b8e4")
-		(property "Reference" "VR7"
-			(at 608.584 351.282 90)
+		(uuid "29eacf77-20a2-4589-9d22-5548a8ffedcf")
+		(property "Reference" "C8b2"
+			(at 707.136 267.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15656,8 +15992,8 @@
 				)
 			)
 		)
-		(property "Value" "500"
-			(at 613.664 351.282 90)
+		(property "Value" "10u"
+			(at 707.898 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15666,8 +16002,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 612.14 358.14 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 702.31 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15678,7 +16014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 612.14 358.14 0)
+			(at 702.31 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15689,7 +16025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 612.14 358.14 0)
+			(at 702.31 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15698,8 +16034,8 @@
 				)
 			)
 		)
-		(property "ki_description" "キャリア調整"
-			(at 612.14 358.14 0)
+		(property "ki_description" "出力デカップ"
+			(at 702.31 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15710,18 +16046,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9c38109-201e-4c44-8d00-8b13c45c2aae")
+			(uuid "3f60164f-3e21-4f73-9292-ba912d87276f")
 		)
 		(pin "1"
-			(uuid "95f9ab9e-2b9f-4aea-abbe-5956c0b08e9e")
-		)
-		(pin "3"
-			(uuid "cc40cfc6-2ac7-4170-985e-207026fbec27")
+			(uuid "efcd4b36-ea4e-4397-831a-0216ce20e4af")
 		)
 		(instances
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "VR7")
+					(reference "C8b2")
 					(unit 1)
 				)
 			)
@@ -16515,99 +16848,6 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 600.71 438.15 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32f8c67f-e7d9-4ace-80ca-2959ba32786f")
-		(property "Reference" "VR3"
-			(at 607.822 445.008 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 603.25 444.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 600.71 438.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 600.71 438.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 600.71 438.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_description" "位相調整"
-			(at 600.71 438.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6a34a0d1-6c23-40d0-85e2-c33ca06e4f27")
-		)
-		(pin "1"
-			(uuid "2378078c-e250-4da3-829b-d10bfc50a544")
-		)
-		(pin "2"
-			(uuid "b10b1c1b-4daf-4cec-8d50-f4f33d8a88a9")
-		)
-		(instances
-			(project "PSN_TRX"
-				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "VR3")
 					(unit 1)
 				)
 			)
@@ -18028,7 +18268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 139.7 0)
+		(at 187.96 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18038,7 +18278,7 @@
 		(dnp no)
 		(uuid "4b59ab58-66d0-43a5-b5c9-da53668bf253")
 		(property "Reference" "#PWR0283"
-			(at 187.96 146.05 0)
+			(at 187.96 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18049,7 +18289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 143.51 0)
+			(at 187.96 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18059,7 +18299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 139.7 0)
+			(at 187.96 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18070,7 +18310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 139.7 0)
+			(at 187.96 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18081,7 +18321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 139.7 0)
+			(at 187.96 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18104,7 +18344,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 201.93 147.32 0)
+		(at 203.2 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18114,7 +18354,7 @@
 		(dnp no)
 		(uuid "4bf20386-3fe2-4981-8c7b-829c5db59821")
 		(property "Reference" "R14"
-			(at 198.12 146.05 0)
+			(at 202.692 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18124,7 +18364,7 @@
 			)
 		)
 		(property "Value" "20k"
-			(at 198.12 148.844 0)
+			(at 203.962 154.432 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18134,7 +18374,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 201.93 147.32 0)
+			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18145,7 +18385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 147.32 0)
+			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18156,7 +18396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 147.32 0)
+			(at 203.2 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18166,7 +18406,7 @@
 			)
 		)
 		(property "ki_description" "G2バイアス下"
-			(at 201.93 147.32 0)
+			(at 203.2 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18704,87 +18944,6 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 421.64 358.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57abbda0-fed3-4004-9508-98a8f4452ede")
-		(property "Reference" "VR5"
-			(at 423.926 352.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 427.482 352.298 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 421.64 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 421.64 358.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 421.64 358.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bb00f170-f72e-410c-9418-d9a022025780")
-		)
-		(pin "1"
-			(uuid "cd655a6a-1ca5-49e6-b1d6-67253e5cb3cc")
-		)
-		(pin "2"
-			(uuid "f5c3d226-5092-4da7-b198-ef78578de699")
-		)
-		(instances
-			(project "PSN_TRX"
-				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "VR5")
 					(unit 1)
 				)
 			)
@@ -19472,7 +19631,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LP2950-3.3_TO92")
-		(at 711.2 226.06 0)
+		(at 675.64 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19483,7 +19642,7 @@
 		(fields_autoplaced yes)
 		(uuid "621d0707-d086-483a-a767-70c34243e3e2")
 		(property "Reference" "U3"
-			(at 711.2 219.71 0)
+			(at 675.64 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19493,7 +19652,7 @@
 			)
 		)
 		(property "Value" "LP2950-3.3_TO92"
-			(at 711.2 222.25 0)
+			(at 675.64 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19503,7 +19662,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 711.2 220.345 0)
+			(at 675.64 255.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19515,7 +19674,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp2950.pdf"
-			(at 711.2 227.33 0)
+			(at 675.64 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19526,7 +19685,7 @@
 			)
 		)
 		(property "Description" "Positive 100mA 30V Linear Micropower Voltage Regulator, Fixed Output 3.3V, TO-92"
-			(at 711.2 226.06 0)
+			(at 675.64 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20099,7 +20258,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 187.96 132.08 0)
+		(at 187.96 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20109,7 +20268,7 @@
 		(dnp no)
 		(uuid "675036e0-c1f3-47ab-bdb0-b401ba9da10b")
 		(property "Reference" "C100"
-			(at 184.658 134.874 0)
+			(at 184.658 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20119,7 +20278,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 191.008 129.54 0)
+			(at 191.008 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20129,7 +20288,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 187.96 132.08 0)
+			(at 187.96 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20140,7 +20299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 132.08 0)
+			(at 187.96 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +20310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 132.08 0)
+			(at 187.96 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20161,7 +20320,7 @@
 			)
 		)
 		(property "ki_description" "L1一次GND"
-			(at 187.96 132.08 0)
+			(at 187.96 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20411,6 +20570,98 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "#PWR0286")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSN_TRX:Potentiometer_GF063P")
+		(at 421.64 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68abe1f9-72cc-4228-badd-15f9903f0ea8")
+		(property "Reference" "VR4"
+			(at 428.498 325.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 433.07 325.374 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+			(at 421.64 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_description" "キャリア調整"
+			(at 421.64 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "16161ac9-7049-4d9a-92bf-b4e46041b307")
+		)
+		(pin "1"
+			(uuid "96a5312c-fa47-4a7b-9f97-cdf8fedb948b")
+		)
+		(pin "3"
+			(uuid "09013f28-fc8a-496e-86a6-9bcb0dac6142")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "VR4")
 					(unit 1)
 				)
 			)
@@ -21420,8 +21671,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 421.64 328.93 0)
+		(lib_id "power:GND")
+		(at 194.31 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21429,9 +21680,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "761d9924-f7ac-466c-b0c8-5fade2a2ba67")
-		(property "Reference" "VR4"
-			(at 428.498 325.374 0)
+		(uuid "757e3b09-2503-4319-8c94-a81a2f3c6d7a")
+		(property "Reference" "#PWR0289"
+			(at 194.31 163.83 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21440,8 +21692,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 433.07 325.374 0)
+		(property "Value" "GND"
+			(at 194.31 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21450,8 +21702,8 @@
 				)
 			)
 		)
-		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 421.64 328.93 0)
+		(property "Footprint" ""
+			(at 194.31 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21462,7 +21714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 421.64 328.93 0)
+			(at 194.31 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21473,7 +21725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 421.64 328.93 0)
+			(at 194.31 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21481,31 +21733,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ki_description" "キャリア調整"
-			(at 421.64 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3a4eadcb-5497-4228-90fb-4e73b09fc212")
 		)
 		(pin "1"
-			(uuid "a2da4345-86c1-4a0a-bdcf-e17ff8f836b6")
-		)
-		(pin "3"
-			(uuid "b497757a-0d34-4b44-9ff3-773a8cf543dc")
+			(uuid "5658f3f1-cbcc-408d-a968-ebe7db561df6")
 		)
 		(instances
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "VR4")
+					(reference "#PWR0289")
 					(unit 1)
 				)
 			)
@@ -22566,6 +22801,92 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "#PWR253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSN_TRX:Potentiometer_GF063P")
+		(at 609.6 328.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83d19513-cdb2-48ec-92bc-be0600a9123b")
+		(property "Reference" "VR6"
+			(at 607.568 321.818 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "500"
+			(at 614.426 321.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+			(at 609.6 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/gf063_series-1.pdf"
+			(at 609.6 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "TOCOS GF063P 6mm Square Cermet Trimmer Potentiometer, Top Adjust, 3-pin triangular P2.5mm"
+			(at 609.6 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0a7b9c6-5389-485e-9e12-382e2c591377")
+		)
+		(pin "2"
+			(uuid "9c2989a0-73c3-40d6-bd95-d584c509911c")
+		)
+		(pin "3"
+			(uuid "01dc2caa-6f82-4677-8066-1581a040ed2e")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "VR6")
 					(unit 1)
 				)
 			)
@@ -24439,98 +24760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 609.6 328.93 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "971961c6-6747-4e01-b304-a53554c71688")
-		(property "Reference" "VR6"
-			(at 606.044 322.072 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "500"
-			(at 610.87 322.072 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
-			(at 609.6 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 609.6 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 609.6 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_description" "キャリア調整"
-			(at 609.6 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4c3b66af-c9bd-4b46-b85b-ff4c40136adc")
-		)
-		(pin "1"
-			(uuid "c86af815-ac1f-4a01-b24c-e41744f88d1f")
-		)
-		(pin "3"
-			(uuid "e94332de-5f85-4c61-acbc-1be7a2b1fe23")
-		)
-		(instances
-			(project "PSN_TRX"
-				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "VR6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 260.35 332.74 0)
 		(unit 1)
@@ -24775,7 +25004,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 654.05 157.48 0)
+		(at 655.32 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24785,7 +25014,7 @@
 		(dnp no)
 		(uuid "98a96b0a-a91f-45c0-8800-977446122b78")
 		(property "Reference" "#PWR237"
-			(at 654.05 161.29 0)
+			(at 655.32 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24796,7 +25025,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 654.05 153.924 0)
+			(at 656.844 154.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24806,7 +25035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 654.05 157.48 0)
+			(at 655.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24817,7 +25046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 654.05 157.48 0)
+			(at 655.32 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24828,7 +25057,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 654.05 157.48 0)
+			(at 655.32 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25783,6 +26012,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 187.96 153.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa2ef1a1-f0df-4fa2-832c-82b31b6c804e")
+		(property "Reference" "J7"
+			(at 191.516 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Volume"
+			(at 185.674 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 187.96 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b471a2f-0f10-49f1-bacd-ddbdd705154e")
+		)
+		(pin "2"
+			(uuid "1500e026-0a9a-4254-ba25-d0c52906300b")
+		)
+		(pin "3"
+			(uuid "8feb9599-2770-4c19-a087-fe5aeb7c3fb9")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 87.63 181.61 90)
 		(unit 1)
@@ -26361,6 +26673,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 702.31 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b59b7d0f-258f-4062-9745-7ffda4e4470a")
+		(property "Reference" "#PWR0251"
+			(at 702.31 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 702.31 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 702.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 702.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 702.31 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1e29174-f964-4ec2-9e9f-3a0ca70271d9")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 341.63 130.81 0)
 		(unit 1)
@@ -26593,6 +26981,99 @@
 		)
 	)
 	(symbol
+		(lib_id "PSN_TRX:Potentiometer_GF063P")
+		(at 600.71 438.15 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7d5afbe-1e2f-4081-8bca-81901dba05de")
+		(property "Reference" "VR3"
+			(at 607.822 445.008 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 603.25 444.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+			(at 600.71 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 600.71 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 600.71 438.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_description" "位相調整"
+			(at 600.71 438.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c37fac37-f401-49d8-af59-67863aea3fae")
+		)
+		(pin "1"
+			(uuid "a1d6c747-21f3-4c03-9525-6d350b4d14f3")
+		)
+		(pin "2"
+			(uuid "e60b8a6e-5940-4bf9-b5b6-9a19a5b3ca6d")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "VR3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 601.98 370.84 0)
 		(unit 1)
@@ -26763,7 +27244,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 137.16 0)
+		(at 209.55 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26773,7 +27254,7 @@
 		(dnp no)
 		(uuid "ba01d92f-7029-4ef4-bc44-523a5eab6c1f")
 		(property "Reference" "C103"
-			(at 205.232 133.604 0)
+			(at 205.232 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26783,7 +27264,7 @@
 			)
 		)
 		(property "Value" "0.01u"
-			(at 205.994 140.208 0)
+			(at 205.994 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26793,7 +27274,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
-			(at 209.55 137.16 0)
+			(at 209.55 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26804,7 +27285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 137.16 0)
+			(at 209.55 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26815,7 +27296,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 137.16 0)
+			(at 209.55 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26825,7 +27306,7 @@
 			)
 		)
 		(property "ki_description" "Q1ソースGND"
-			(at 209.55 137.16 0)
+			(at 209.55 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27010,6 +27491,87 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSN_TRX:Potentiometer_GF063P")
+		(at 421.64 358.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0250db1-f924-4229-b481-d04588b72c57")
+		(property "Reference" "VR5"
+			(at 423.926 352.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 427.482 352.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
+			(at 421.64 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "dc3255d8-a578-4c33-b889-b42dced57fa2")
+		)
+		(pin "1"
+			(uuid "46dba417-464f-4204-8be7-50cd0ea69dcf")
+		)
+		(pin "2"
+			(uuid "5758baa2-833f-471b-834d-bb952dac0e04")
+		)
+		(instances
+			(project "PSN_TRX"
+				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
+					(reference "VR5")
 					(unit 1)
 				)
 			)
