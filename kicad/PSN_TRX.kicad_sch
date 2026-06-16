@@ -12759,10 +12759,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "0774657e-e382-4be1-bef0-12f2c8e8dfbf")
 		(property "Reference" "VR2"
 			(at 514.858 147.828 0)
@@ -12784,7 +12784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
 			(at 520.7 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14346,10 +14346,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1837fce6-0639-4244-bb92-6d9f0356d627")
 		(property "Reference" "VR1"
@@ -14372,7 +14372,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical"
 			(at 194.31 137.16 0)
 			(hide yes)
 			(show_name no)
