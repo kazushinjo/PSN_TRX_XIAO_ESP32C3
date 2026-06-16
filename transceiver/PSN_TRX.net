@@ -8771,132 +8771,8 @@
 				)
 			)
 		)
-		(comp
-			(ref "VR1")
-			(value "5k")
-			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-			(fields
-				(field
-					(name "ki_description") "AGC調整")
-				(field
-					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Potentiometer")
-				(description "Potentiometer")
-			)
-			(property
-				(name "ki_description")
-				(value "AGC調整")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "PSN_TRX.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "resistor variable")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Potentiometer*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "1837fce6-0639-4244-bb92-6d9f0356d627")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "VR2")
-			(value "10k")
-			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-			(fields
-				(field
-					(name "ki_description") "音量調整")
-				(field
-					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description")
-				)
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Potentiometer")
-				(description "Potentiometer")
-			)
-			(property
-				(name "ki_description")
-				(value "音量調整")
-			)
-			(property
-				(name "Sheetname")
-				(value "")
-			)
-			(property
-				(name "Sheetfile")
-				(value "PSN_TRX.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "resistor variable")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "Potentiometer*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "0774657e-e382-4be1-bef0-12f2c8e8dfbf")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "3")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
+		
+		
 		(comp
 			(ref "VR3")
 			(value "10k")
@@ -10503,17 +10379,9 @@
 				(ref "TC3")
 				(pin "2")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR1")
-				(pin "1")
-				(pinfunction "1_1")
+			)(pinfunction "1_1")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR2")
-				(pin "3")
-				(pinfunction "3_3")
+			)(pinfunction "3_3")
 				(pintype "passive")
 			)
 		)
@@ -10686,11 +10554,7 @@
 				(ref "C123")
 				(pin "2")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR2")
-				(pin "2")
-				(pinfunction "2_2")
+			)(pinfunction "2_2")
 				(pintype "passive")
 			)
 		)
@@ -11540,11 +11404,7 @@
 				(pin "4")
 				(pinfunction "G2_4")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR1")
-				(pin "2")
-				(pinfunction "2_2")
+			)(pinfunction "2_2")
 				(pintype "passive")
 			)
 		)
@@ -12286,11 +12146,7 @@
 				(ref "R14")
 				(pin "1")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR1")
-				(pin "3")
-				(pinfunction "3_3")
+			)(pinfunction "3_3")
 				(pintype "passive")
 			)
 		)
@@ -12302,11 +12158,7 @@
 				(ref "R43")
 				(pin "2")
 				(pintype "passive")
-			)
-			(node
-				(ref "VR2")
-				(pin "1")
-				(pinfunction "1_1")
+			)(pinfunction "1_1")
 				(pintype "passive")
 			)
 		)
@@ -12620,3 +12472,4 @@
 		)
 	)
 )
+
