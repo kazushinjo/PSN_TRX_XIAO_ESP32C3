@@ -22,6 +22,9 @@ PROJECT_DIR = Path(__file__).parent
 PCB_FILE    = PROJECT_DIR / 'PSN_TRX.kicad_pcb'
 NET_FILE    = PROJECT_DIR / 'PSN_TRX.net'
 
+# on_board no の部品（外付けVR）はPCBに配置しない
+EXCLUDE_REFS = {'VR1', 'VR2'}
+
 # KiCad footprint library search paths
 FP_SEARCH_PATHS = [
     PROJECT_DIR / 'PSN_TRX.pretty',
@@ -91,8 +94,8 @@ def main():
 
     for comp in components:
         ref = comp['ref']
-        if ref in existing_refs:
-            continue  # already placed
+        if ref in existing_refs or ref in EXCLUDE_REFS:
+            continue  # already placed or excluded (on_board no)
 
         fp_path = find_footprint(comp['footprint'])
         if not fp_path:
@@ -138,3 +141,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
