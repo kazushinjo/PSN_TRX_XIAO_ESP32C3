@@ -1,7 +1,7 @@
 from docx import Document
 
 # docx ファイルを開く
-doc = Document(r"C:\projects\PSN_TRX_ESP32\docs\PSN_TRX_VFO改造仕様書.docx")
+doc = Document("/Users/kazuichishinjo/Desktop/PSN_TRX_Nano_R4/docs/PSN_TRX_VFO改造仕様書.docx")
 
 # 置換のペアリスト
 replacements = [
@@ -42,5 +42,5 @@ for table in doc.tables:
                                 run.text = run.text.replace(old, new)
 
 # 保存
-doc.save(r"C:\projects\PSN_TRX_ESP32\docs\PSN_TRX_VFO改造仕様書.docx")
+doc.save("/Users/kazuichishinjo/Desktop/PSN_TRX_Nano_R4/docs/PSN_TRX_VFO改造仕様書.docx")
 print("docx file updated successfully!")
