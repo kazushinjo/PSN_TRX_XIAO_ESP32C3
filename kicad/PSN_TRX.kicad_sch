@@ -24525,7 +24525,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 775.97 312.42 0)
 		(unit 1)
 		(body_style 1)
@@ -24555,7 +24555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 775.97 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -24577,7 +24577,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04"
 			(at 775.97 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -24596,6 +24596,9 @@
 		)
 		(pin "3"
 			(uuid "f5a3e616-1cf8-4101-ae15-5271e9d1b220")
+		)
+		(pin "4"
+			(uuid "c7d8e9f0-1a2b-4c3d-8e4f-5a6b7c8d9e0f")
 		)
 		(instances
 			(project "PSN_TRX"
@@ -33154,92 +33157,6 @@
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 200.66 153.67 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1e2d3f4-a5b6-47c8-d9e0-f1a2b3c4d5e6")
-		(property "Reference" "J8"
-			(at 204.216 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Rotary_Encoder"
-			(at 198.374 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 200.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary Encoder: ENC_A(D0), ENC_B(D1), ENC_SW(D2), GND"
-			(at 200.66 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1b2c3d4-e5f6-4789-abcd-ef0123456781")
-		)
-		(pin "2"
-			(uuid "a1b2c3d4-e5f6-4789-abcd-ef0123456782")
-		)
-		(pin "3"
-			(uuid "a1b2c3d4-e5f6-4789-abcd-ef0123456783")
-		)
-		(pin "4"
-			(uuid "a1b2c3d4-e5f6-4789-abcd-ef0123456784")
-		)
-		(instances
-			(project "PSN_TRX"
-				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "J8")
 					(unit 1)
 				)
 			)
