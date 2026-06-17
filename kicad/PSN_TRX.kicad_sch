@@ -7758,16 +7758,44 @@
 		(uuid "6ce8f3aa-6211-4e90-8645-bd70a10b060c")
 	)
 	(no_connect
+		(at 736.6 331.47)
+		(uuid "73d2b15c-6ecb-41dc-9a25-9a9b3e4a37b6")
+	)
+	(no_connect
+		(at 736.6 326.39)
+		(uuid "9028fa1f-31ff-4daa-9f8d-24e5b738b298")
+	)
+	(no_connect
 		(at 176.53 127)
 		(uuid "97c3294b-e3e0-4ef6-9192-30475fae9bc4")
+	)
+	(no_connect
+		(at 736.6 334.01)
+		(uuid "99828c1b-744c-4cf1-a625-5bce513444db")
+	)
+	(no_connect
+		(at 706.12 336.55)
+		(uuid "99ff25b6-1f25-40c9-bfdc-7aa70afa6db5")
+	)
+	(no_connect
+		(at 736.6 336.55)
+		(uuid "b9e6fb8e-010d-4e4d-ab17-72dc0550bd74")
 	)
 	(no_connect
 		(at 381 321.31)
 		(uuid "c6d9889d-2a86-42e3-ad48-baf6b06f3ad9")
 	)
 	(no_connect
+		(at 736.6 328.93)
+		(uuid "cd682f16-0dff-41bb-ac2a-d239c01a0ee6")
+	)
+	(no_connect
 		(at 265.43 123.19)
 		(uuid "d07d9804-d159-434a-b2a1-0f2e6b4be7a8")
+	)
+	(no_connect
+		(at 706.12 328.93)
+		(uuid "d1cfd42d-3824-4b01-a518-cd42d31ff028")
 	)
 	(no_connect
 		(at 657.86 334.01)
@@ -12388,7 +12416,7 @@
 		(uuid "e33b343a-cefb-408e-b4a4-449aa181bd3b")
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_NPN_BCE")
+		(lib_id "PSN_TRX:RD06HVF1")
 		(at 232.41 308.61 0)
 		(mirror y)
 		(unit 1)
@@ -12409,7 +12437,7 @@
 				)
 			)
 		)
-		(property "Value" "2SC1971"
+		(property "Value" "RD06HVF1"
 			(at 224.79 300.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17709,8 +17737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 255.27 339.09 270)
+		(lib_id "Device:R")
+		(at 255.27 339.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17729,7 +17757,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "0R"
 			(at 248.92 339.344 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25720,8 +25748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 255.27 346.71 270)
+		(lib_id "Device:R")
+		(at 255.27 346.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25740,7 +25768,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "0R"
 			(at 249.174 346.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26144,7 +26172,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0R"
 			(at 227.076 318.008 0)
 			(show_name no)
 			(do_not_autoplace no)
