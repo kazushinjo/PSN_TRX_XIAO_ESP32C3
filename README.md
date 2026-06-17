@@ -1,4 +1,4 @@
-# PSN_TRX_Nano_R4
+# PSN_TRX_XIAO_SAMD21
 
 Arduino Nano R4 + Seeeduino XIAO + Si5351 を使用した PSN 方式 SSB トランシーバー（KiCad 10.0）。
 

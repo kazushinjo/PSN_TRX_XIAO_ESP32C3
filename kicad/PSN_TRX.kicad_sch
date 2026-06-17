@@ -7929,7 +7929,7 @@
 		(uuid "cd682f16-0dff-41bb-ac2a-d239c01a0ee6")
 	)
 	(no_connect
-		(at 265.43 123.19)
+		(at 245.11 123.19)
 		(uuid "d07d9804-d159-434a-b2a1-0f2e6b4be7a8")
 	)
 	(no_connect
@@ -28551,6 +28551,7 @@
 	(symbol
 		(lib_id "PSN_TRX:L_7T50_CT")
 		(at 255.27 123.19 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28560,7 +28561,7 @@
 		(dnp no)
 		(uuid "c4ff8d4f-afec-4210-b535-c4ca783b11c7")
 		(property "Reference" "L1"
-			(at 253.492 112.268 0)
+			(at 257.048 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28570,7 +28571,7 @@
 			)
 		)
 		(property "Value" "7T50"
-			(at 258.318 112.268 0)
+			(at 252.222 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
