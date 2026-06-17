@@ -72,12 +72,13 @@
 
 | Reference | Value | Footprint | Qty |
 |---|---|---|---|
-| Q1 | 3SK59 | Package_TO_SOT_THT:TO-72-4 | 1 |
-| Q12, Q17, Q11, Q13, Q4, Q15, Q3 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 7 |
+| **Q3** | **BF998** | PSN_TRX:BF998_SOT143 | 1 |
+| Q12, Q17, Q11, Q13, Q4, Q15 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 6 |
 | Q14, Q10, Q9 | 2SK439 | Package_TO_SOT_THT:TO-92_Inline | 3 |
 | Q5 | 2SC2120 | Package_TO_SOT_THT:TO-92_Inline | 1 |
 | Q6 | 2SA950 | Package_TO_SOT_THT:TO-92_Inline | 1 |
-| Q8, Q2, Q7 | 2SC1923 | Package_TO_SOT_THT:TO-92_Inline | 3 |
+| **Q8** | **RD06HVF1** | Package_TO_SOT_THT:TO-220-3_Vertical | 1 |
+| Q2, Q7 | 2SC1923 | Package_TO_SOT_THT:TO-92_Inline | 2 |
 
 ## 水晶振動子
 

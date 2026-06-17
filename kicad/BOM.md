@@ -9,6 +9,7 @@
 > - Q8: 2SC1971 → **RD06HVF1**（RF N-ch MOSFET）に換装
 > - D3, D4: 削除（VR3 pin3 を GND へ直結配線）
 > - R20: 10Ω → **0R**（エミッタ抵抗廃止、ソース直結 GND）
+> - Q3: 3SK59(TO-72 THT) → **BF998(SOT-143 SMD)**（デュアルゲート MOSFET）
 
 ---
 
@@ -78,8 +79,8 @@
 
 | Reference | Value | Footprint | Qty | 備考 |
 |---|---|---|---|---|
-| Q1 | 3SK59 | Package_TO_SOT_THT:TO-72-4 | 1 | |
-| Q12, Q17, Q11, Q13, Q4, Q15, Q3 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 7 | |
+| **Q3** | **BF998** | PSN_TRX:BF998_SOT143 | 1 | **RF アンプ N-ch Dual Gate MOSFET (SMD, SOT-143)** |
+| Q12, Q17, Q11, Q13, Q4, Q15 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 6 | |
 | Q14, Q10, Q9 | 2SK439 | Package_TO_SOT_THT:TO-92_Inline | 3 | |
 | Q5 | 2SC2120 | Package_TO_SOT_THT:TO-92_Inline | 1 | |
 | Q6 | 2SA950 | Package_TO_SOT_THT:TO-92_Inline | 1 | |
