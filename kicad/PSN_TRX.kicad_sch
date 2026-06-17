@@ -12954,7 +12954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 744.22 440.69 0)
 		(unit 1)
 		(body_style 1)
@@ -12984,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 744.22 440.69 0)
 			(hide yes)
 			(show_name no)
@@ -13022,6 +13022,12 @@
 		)
 		(pin "2"
 			(uuid "5bd622f3-f032-4767-bf35-8b2e5e963596")
+		)
+		(pin "3"
+			(uuid "a5fbeef0-0276-4a0d-b819-b7c11dd626c4")
+		)
+		(pin "4"
+			(uuid "1236753a-1bb3-4439-8938-ec9ef09d005e")
 		)
 		(instances
 			(project "PSN_TRX"
@@ -30217,7 +30223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 772.16 298.45 0)
 			(hide yes)
 			(show_name no)
