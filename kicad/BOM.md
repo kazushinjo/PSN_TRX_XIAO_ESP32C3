@@ -5,6 +5,11 @@
 
 機械可読版は [`bom.csv`](bom.csv)。
 
+> **最終更新: 2026-06-17**
+> - Q8: 2SC1971 → **RD06HVF1**（RF N-ch MOSFET）に換装
+> - D3, D4: 1N4148 → **0R**（温度補償ダイオード廃止）
+> - R20: 10Ω → **0R**（エミッタ抵抗廃止、ソース直結 GND）
+
 ---
 
 ## 抵抗 R
@@ -71,14 +76,26 @@
 
 ## トランジスタ Q
 
-| Reference | Value | Footprint | Qty |
+| Reference | Value | Footprint | Qty | 備考 |
+|---|---|---|---|---|
+| Q1 | 3SK59 | Package_TO_SOT_THT:TO-72-4 | 1 | |
+| Q12, Q17, Q11, Q13, Q4, Q15, Q3 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 7 | |
+| Q14, Q10, Q9 | 2SK439 | Package_TO_SOT_THT:TO-92_Inline | 3 | |
+| Q5 | 2SC2120 | Package_TO_SOT_THT:TO-92_Inline | 1 | |
+| Q6 | 2SA950 | Package_TO_SOT_THT:TO-92_Inline | 1 | |
+| Q2, Q7 | 2SC1923 | Package_TO_SOT_THT:TO-92_Inline | 2 | |
+| **Q8** | **RD06HVF1** | Package_TO_SOT_THT:TO-220-3_Vertical | 1 | **1W PA終段 RF N-ch MOSFET (175MHz, 6W, TO-220F)** |
+
+## 1W PA バイアス回路部品
+
+| Reference | Value | Footprint | 備考 |
 |---|---|---|---|
-| Q1 | 3SK59 | Package_TO_SOT_THT:TO-72-4 | 1 |
-| Q12, Q17, Q11, Q13, Q4, Q15, Q3 | 2SC1815 | Package_TO_SOT_THT:TO-92_Inline | 7 |
-| Q14, Q10, Q9 | 2SK439 | Package_TO_SOT_THT:TO-92_Inline | 3 |
-| Q5 | 2SC2120 | Package_TO_SOT_THT:TO-92_Inline | 1 |
-| Q6 | 2SA950 | Package_TO_SOT_THT:TO-92_Inline | 1 |
-| Q8, Q2, Q7 | 2SC1923 | Package_TO_SOT_THT:TO-92_Inline | 3 |
+| R22 | 470Ω | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | ゲートバイアス上側分圧 |
+| VR3 | 500Ω | Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical | Idq 調整用トリマポット |
+| R21 | 10Ω | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | ゲートストッパー |
+| R20 | **0R** | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | ソース直結GND（ジャンパ線で代替可） |
+| D3, D4 | **0R** | Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal | 旧温度補償ダイオード廃止（ショート）|
+| RFC1 | 10uH | PSN_TRX:L_AL0510-153K_Vertical | ドレイン側 RFチョーク |
 
 ## 水晶振動子
 
