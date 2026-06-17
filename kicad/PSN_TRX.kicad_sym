@@ -393,7 +393,6 @@
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type background))))
     (symbol "Seeeduino_XIAO_Socket_1_1"
-      ; Left side: pins 1-7 (D0..D6/TX), top to bottom (USB side at top)
       (pin passive line (at -15.24  7.62 0) (length 5.08)
         (name "D0/A0"    (effects (font (size 1.27 1.27) (thickness 0.15))))
         (number "1"      (effects (font (size 0.5 0.5) (thickness 0.05)) hide)))
@@ -415,7 +414,6 @@
       (pin passive line (at -15.24 -7.62 0) (length 5.08)
         (name "D6/TX"    (effects (font (size 1.27 1.27) (thickness 0.15))))
         (number "7"      (effects (font (size 0.5 0.5) (thickness 0.05)) hide)))
-      ; Right side: pins 8-14 (VIN..D7/RX), top to bottom (USB side at top)
       (pin power_in  line (at  15.24  7.62 180) (length 5.08)
         (name "VIN"      (effects (font (size 1.27 1.27) (thickness 0.15))))
         (number "8"      (effects (font (size 0.5 0.5) (thickness 0.05)) hide)))
