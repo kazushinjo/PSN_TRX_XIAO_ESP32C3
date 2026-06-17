@@ -485,8 +485,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "PSN_TRX"
+    ],
+    "pinned_symbol_libs": [
+      "PSN_TRX"
+    ]
   },
   "meta": {
     "filename": "PSN_TRX.kicad_pro",
@@ -690,7 +694,7 @@
         "uuid": "50835569-93ad-4c8c-aafc-424a6a3761ef"
       }
     ],
-    "used_designators": "#PWR1-5,#PWR288,J8,A2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
