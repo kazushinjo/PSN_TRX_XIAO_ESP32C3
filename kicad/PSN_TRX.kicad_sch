@@ -31859,7 +31859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee810141-49d0-4ed4-8ca5-8f253c93e4dd")
-		(property "Reference" "A1"
+		(property "Reference" "Studio XIAO ESP32C3"
 			(at 721.36 313.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31961,7 +31961,7 @@
 		(instances
 			(project "PSN_TRX"
 				(path "/50835569-93ad-4c8c-aafc-424a6a3761ef"
-					(reference "A1")
+					(reference "Studio XIAO ESP32C3")
 					(unit 1)
 				)
 			)
