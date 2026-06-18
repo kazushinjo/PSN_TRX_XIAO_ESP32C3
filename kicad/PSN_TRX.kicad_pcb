@@ -13045,8 +13045,8 @@
 		(layer "F.Cu")
 		(uuid "5407d4c8-4cd8-4644-9301-8633077ca13d")
 		(at 199.285 96.88)
-		(descr "Seeeduino XIAO SAMD21 14-pin Socket (ARM Cortex-M0+ 48MHz)")
-		(tags "Seeeduino XIAO SAMD21 Socket")
+		(descr "Seeed Studio XIAO ESP32C3 14-pin Socket (RISC-V 32-bit 160MHz)")
+		(tags "Seeed Studio XIAO ESP32C3 Socket")
 		(property "Reference" "A1"
 			(at 0 -13 0)
 			(layer "F.SilkS")
@@ -13069,7 +13069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
+		(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13080,7 +13080,7 @@
 				)
 			)
 		)
-		(property "Description" "Seeeduino XIAO with ATSAMD21G18 ARM Cortex-M0+ 48MHz, 14-pin"
+		(property "Description" "Seeed Studio XIAO ESP32C3 RISC-V 32-bit 160MHz, 14-pin"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Seeeduino XIAO SAMD21 14-pin Socket (ARM Cortex-M0+ 48MHz)")
-	(tags "Seeeduino XIAO SAMD21 Socket")
+	(descr "Seeed Studio XIAO ESP32C3 14-pin Socket (RISC-V 32-bit 160MHz)")
+	(tags "Seeed Studio XIAO ESP32C3 Socket")
 	(attr through_hole)
 	(fp_text reference "REF**"
 		(at 0 -13.0)

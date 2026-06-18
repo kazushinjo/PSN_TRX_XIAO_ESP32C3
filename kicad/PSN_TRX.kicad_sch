@@ -4413,7 +4413,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
+			(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4425,7 +4425,7 @@
 					)
 				)
 			)
-			(property "Description" "Seeeduino XIAO with ATSAMD21G18 ARM Cortex-M0+ 48MHz, 14-pin"
+			(property "Description" "Seeed Studio XIAO ESP32C3 RISC-V 32-bit 160MHz, 14-pin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4436,7 +4436,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Seeeduino XIAO SAMD21 ARM Cortex-M0+"
+			(property "ki_keywords" "Seeed Studio XIAO ESP32C3 RISC-V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -31631,7 +31631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wiki.seeedstudio.com/Seeeduino-XIAO/"
+		(property "Datasheet" "https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/"
 			(at 721.36 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -31643,7 +31643,7 @@
 				)
 			)
 		)
-		(property "Description" "Seeeduino XIAO with ATSAMD21G18 ARM Cortex-M0+ 48MHz, 14-pin"
+		(property "Description" "Seeed Studio XIAO ESP32C3 RISC-V 32-bit 160MHz, 14-pin"
 			(at 721.36 328.93 0)
 			(hide yes)
 			(show_name no)
