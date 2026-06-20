@@ -1,58 +1,68 @@
-Reference,Value,Footprint,Qty
-"C21, C22, C3",0.001u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3
-"C119, C113, C124, C115, C118, C112, C117, C100, C126, C114, C120, C121, C103, C116, C111, C125, C101",0.01u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,17
-"C4, C6, C7",0.1u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3
-R4,1.5k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1
-"R15, R44, R41, R34",100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,4
-"R17, R6, R42, R23, R8, R20",100k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,6
-"C10, C9",100p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,2
-"C28, C30",100u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,2
-VR2,10k,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1
-VR3,10k,Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical,1
-"R26, R12, R16, R27, R11",10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,5
-"C5, C8, C8b1",10u,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,3
-R1,120,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1
-L8,15mH,PSN_TRX:L_AL0510-153K_Vertical,1
-"C31, C23, C17, C18, C1, C24, C2",15p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,7
-"R31, R2, R28",1M,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3
-"D8, D1, D7, D3, D2, D4",1N60,Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_CathodeUp,6
-"VR5, VR4",1k,Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical,2
-"R24, R13, R33, R18, R7, R5, R40, R9, R10, R22",1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,10
-"L10, L9",1mH,PSN_TRX:L_AL0510-153K_Vertical,2
-"C163, C165, C162, C159, C164, C158, C160, C166, C167, C168, C161",1u,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,11
-"C104, C105, C122, C102, C123",1u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,5
-"R35, R14",20k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,2
-R21,220k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1
-Q6,2SA950,Package_TO_SOT_THT:TO-92_Inline,1
-"Q12, Q17, Q11, Q13, Q4, Q15, Q3",2SC1815,Package_TO_SOT_THT:TO-92_Inline,7
-"Q8, Q2, Q7",2SC1923,Package_TO_SOT_THT:TO-92_Inline,3
-Q5,2SC2120,Package_TO_SOT_THT:TO-92_Inline,1
-"Q14, Q10, Q9",2SK439,Package_TO_SOT_THT:TO-92_Inline,3
-"TC3, VC1",30p,PSN_TRX:C_Trimmer_TMCV01,2
-"R25, R30, R43",330,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3
-"C20, C19",33p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,2
-Q1,3SK59,Package_TO_SOT_THT:TO-72-4,1
-R3,4.7,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1
-"R38, R32, R29",4.7k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3
-"TC2, TC1",40p,PSN_TRX:C_Trimmer_TMCV01,2
-"C11, C14, C12",47p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,3
-X1,50.5MHz/3,Crystal:Crystal_HC49-4H_Vertical,1
-"R36, R39, R51",51,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3
-VR1,5k,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1
-"C32, C13",5p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,2
-L3,7T5,PSN_TRX:L_FCZ07S_CT,1
-"L1, L7, L6, L12, L11, L2, L13",7T50,PSN_TRX:L_FCZ07S_CT,7
-J5,FREQ-VC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
-K1,G5V-2,Relay_THT:Relay_DPDT_Omron_G5V-2,1
-LED1,LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
-LED2,LEDé»„,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
-IC1,LP2950L-5.0V,Package_TO_SOT_THT:TO-92_Inline,1
-J4,MIC-IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
-"IC2, IC2, IC2",NJM2904,Package_DIP:DIP-8_W7.62mm,3
-"J3, J2, J1",PWR_IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,3
-T1,ST-71,PSN_TRX:Transformer_ST71_CB19,1
-"SW2, SW1",SW,Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile,2
-L5,T-30-10 6T+1T/0.4mm,PSN_TRX:L_T30_3pin_Vertical,1
-L4,T-30-10 6T/0.4mm,PSN_TRX:L_T30_2pin_Vertical,1
-"L14, L15",T-50-10 18T/0.4mm,PSN_TRX:L_T50_2pin_Vertical,2
-J6,Volume,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1
+Reference,•i–¼/Œ^”Ô,’l/d—l,ƒtƒbƒgƒvƒŠƒ“ƒg,”—Ê,“üèæ
+"C1, C2, C5, C8, C10",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,1u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,5,HŒ“dq
+"C3, C4, C9",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,0.1u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3,HŒ“dq
+"C6, C12, C22, C30, C34, C37",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,15p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,6,HŒ“dq
+"C7, C13, C14, C15, C23, C24, C25, C32, C33, C35, C36, C39, C40, C45, C48, C49",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,0.01u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,16,HŒ“dq
+"C11, C16",“d‰ğƒRƒ“ƒfƒ“ƒT,100u,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,2,HŒ“dq
+"C17, C18, C19, C20",“d‰ğƒRƒ“ƒfƒ“ƒT,10u,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,4,HŒ“dq
+"C21, C38, C44",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,0.001u,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,3,HŒ“dq
+C27,ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,0.1uF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,1,HŒ“dq
+"C28, C29",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,100pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,2,HŒ“dq
+C31,ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,22pF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,1,HŒ“dq
+"C41, C42, C46, C47",ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,47PF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,4,HŒ“dq
+C43,ƒZƒ‰ƒ~ƒbƒNƒRƒ“ƒfƒ“ƒT,5p,Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm,1,HŒ“dq
+"C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60",“d‰ğƒRƒ“ƒfƒ“ƒT,1u,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,11,HŒ“dq
+"D1, D2, D5, D6, D7, D8",ƒQƒ‹ƒ}ƒjƒEƒ€ƒ_ƒCƒI[ƒh 1N60,1N60,Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_CathodeUp,6,HŒ“dq^ƒTƒg[“d‹C
+IC1,O’[qƒŒƒMƒ…ƒŒ[ƒ^ LP2950L,LP2950L-5.0V,Package_TO_SOT_THT:TO-92_Inline,1,HŒ“dq
+IC2,ƒfƒ…ƒAƒ‹ OP ƒAƒ“ƒv NJM2904,NJM2904,Package_DIP:DIP-8_W7.62mm,1,HŒ“dq
+J1,ƒsƒ“ƒwƒbƒ_,RF_IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+J2,ƒsƒ“ƒwƒbƒ_,SP-OUT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+J3,ƒsƒ“ƒwƒbƒ_,PWR_IN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+"J4, J5",ƒsƒ“ƒwƒbƒ_,Volume,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,2,HŒ“dq
+J6,ƒsƒ“ƒwƒbƒ_,Encoder,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,HŒ“dq
+J7,ƒsƒ“ƒwƒbƒ_,I2C_OUT-LCD,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,HŒ“dq
+J8,ƒsƒ“ƒwƒbƒ_,MIC-IN,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,HŒ“dq
+J9,ƒsƒ“ƒwƒbƒ_,TX-ON-LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+J10,ƒsƒ“ƒwƒbƒ_,TJC4832T135,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,1,HŒ“dq
+K1,ƒŠƒŒ[iDPDTj,G5V-2,Relay_THT:Relay_DPDT_Omron_G5V-2,1,HŒ“dq
+"L1, L2, L3, L7, L8, L9",FCZ07S ƒRƒCƒ‹iƒZƒ“ƒ^[ƒ^ƒbƒv•tj,7T50,PSN_TRX:L_FCZ07S_CT,6,ƒTƒg[“d‹C
+"L4, L5",T-50-10 ƒgƒƒCƒ_ƒ‹ƒRƒCƒ‹ 18Šª,T-50-10 18T/0.4mm,PSN_TRX:L_T50_2pin_Vertical,2,ƒTƒg[“d‹C
+L6,ŒÅ’èƒCƒ“ƒ_ƒNƒ^iƒAƒLƒVƒƒƒ‹j,47nH,Inductor_THT:L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC,1,HŒ“dq
+"L10, L11",ŒÅ’èƒCƒ“ƒ_ƒNƒ^ AL0510,100nH,PSN_TRX:L_AL0510-153K_Vertical,2,ƒTƒg[“d‹C
+"L12, L13",ŒÅ’èƒCƒ“ƒ_ƒNƒ^ AL0510,1mH,PSN_TRX:L_AL0510-153K_Vertical,2,ƒTƒg[“d‹C
+L14,ŒÅ’èƒCƒ“ƒ_ƒNƒ^ AL0510,15mH,PSN_TRX:L_AL0510-153K_Vertical,1,ƒTƒg[“d‹C
+LED1,LED,LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+LED2,LED,LED‰©,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,HŒ“dq
+Q1,NPN ƒgƒ‰ƒ“ƒWƒXƒ^ 2SC2120,2SC2120,Package_TO_SOT_THT:TO-92_Inline,1,HŒ“dq^ƒTƒg[“d‹C
+"Q2, Q5, Q9, Q11, Q12, Q13, Q14",NPN ƒgƒ‰ƒ“ƒWƒXƒ^ 2SC1815,2SC1815,Package_TO_SOT_THT:TO-92_Inline,7,HŒ“dq^ƒTƒg[“d‹C
+Q3,ƒfƒ…ƒAƒ‹ƒQ[ƒg MOSFETiSMDj BF998,BF998,PSN_TRX:BF998_SOT143,1,Mouser^Digikey
+Q4,NPN ƒgƒ‰ƒ“ƒWƒXƒ^ 2SC1923,2SC1923,Package_TO_SOT_THT:TO-92_Inline,1,ƒTƒg[“d‹C
+Q6,PNP ƒgƒ‰ƒ“ƒWƒXƒ^ 2SA950,2SA950,Package_TO_SOT_THT:TO-92_Inline,1,HŒ“dq^ƒTƒg[“d‹C
+"Q7, Q10",N-ch JFET 2SK439,2SK439,Package_TO_SOT_THT:TO-92_Inline,2,HŒ“dq^ƒTƒg[“d‹C
+Q8,RF N-ch MOSFET RD06HVF1i1W PA I’ij,RD06HVF1,Package_TO_SOT_THT:TO-220-3_Vertical,1,HŒ“dq
+"R1, R2, R17, R35",ŒÅ’è’ïR 1/4W,100k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,4,HŒ“dq
+R3,ŒÅ’è’ïR 1/4W,1.5k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1,HŒ“dq
+"R4, R7, R11, R12, R16, R25, R32, R36, R41",ŒÅ’è’ïR 1/4W,1k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,9,HŒ“dq
+"R5, R37, R39",ŒÅ’è’ïR 1/4W,330,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3,HŒ“dq
+"R6, R8, R31, R34",ŒÅ’è’ïR 1/4W,10k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,4,HŒ“dq
+"R9, R33, R40",ŒÅ’è’ïR 1/4W,1M,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3,HŒ“dq
+R10,ŒÅ’è’ïR 1/4W,4.7,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1,HŒ“dq
+R13,ŒÅ’è’ïR 1/4W,120,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1,HŒ“dq
+"R14, R28",ŒÅ’è’ïR 1/4W,100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,2,HŒ“dq
+"R15, R19",ŒÅ’è’ïR 1/4W,20k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,2,HŒ“dq
+"R18, R23, R26",ŒÅ’è’ïR 1/4W,51,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3,HŒ“dq
+R21,ŒÅ’è’ïR 1/4W,10,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,1,HŒ“dq
+R22,ŒÅ’è’ïR 1/4W,470,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical,1,HŒ“dq
+"R24, R30, R38",ŒÅ’è’ïR 1/4W,4.7k,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,3,HŒ“dq
+"R27, R29",ŒÅ’è’ïR 1/4W,47,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,2,HŒ“dq
+RFC1,RFƒ`ƒ‡[ƒN,10uH,Inductor_THT:L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC,1,HŒ“dq
+"SW1, SW2",DIP ƒXƒ‰ƒCƒhƒXƒCƒbƒ`,SW,Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile,2,HŒ“dq
+Studio XIAO ESP32C3,Seeeduino_XIAO_Socket,Seeeduino_XIAO_Socket,PSN_TRX:Seeeduino_XIAO_Socket,1,HŒ“dq
+T1,‰¹ºƒgƒ‰ƒ“ƒX R… ST-71,ST-71,PSN_TRX:Transformer_ST71_CB19,1,ƒTƒg[“d‹C
+TC1,ƒgƒŠƒ}ƒRƒ“ƒfƒ“ƒT TMCV01i50pF ‘ã‘Ö‰Âj,30p,PSN_TRX:C_Trimmer_TMCV01,1,HŒ“dq
+U1,O’[qƒŒƒMƒ…ƒŒ[ƒ^ LP2950L,LP2950-3.3_TO92,Package_TO_SOT_THT:TO-92_Inline,1,HŒ“dq
+U2,ƒNƒƒbƒNƒWƒFƒlƒŒ[ƒ^[ƒ‚ƒWƒ…[ƒ‹ Si5351A,Si5351_DIP8,PSN_TRX:DIP-8_W7.62mm,1,HŒ“dq
+VR3,ƒgƒŠƒ}ƒ|ƒbƒg Bourns 3266W,500,Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical,1,HŒ“dq
+"VR4, VR6",ƒ{ƒŠƒ…[ƒ€ TOCOS GF063P,1k,PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical,2,HŒ“dq
+"VR5, VR7",ƒ{ƒŠƒ…[ƒ€ TOCOS GF063P,500,PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical,2,HŒ“dq
+VR8,ƒ{ƒŠƒ…[ƒ€ TOCOS GF063P,10k,PSN_TRX:Potentiometer_TOCOS_GF063P_Vertical,1,HŒ“dq

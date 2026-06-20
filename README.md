@@ -79,7 +79,8 @@ kicad/
   PSN_TRX.kicad_pcb       - PCB レイアウト（配線作業中）
   PSN_TRX.kicad_sym       - カスタムシンボルライブラリ
   PSN_TRX.pretty/         - カスタムフットプリントライブラリ（12点）
-  BOM.md                  - 部品表
+  BOM.md                  - 部品表（Markdown）
+  bom.csv                 - 部品表（Shift-JIS CSV・入手先情報付き）
 docs/
   PSN_TRX_VFO改造仕様書.docx  - 改造仕様書（部品リスト・回路図含む）
 ```
@@ -88,6 +89,7 @@ docs/
 
 | 日付 | 変更内容 |
 |---|---|
+| 2026-06-20 | KiCad 回路図から bom.csv を新規生成（Shift-JIS）、入手先情報（秋月電子・サトー電気等）追加 |
 | 2026-06-17 | Q3: 3SK59(TO-72 THT) → BF998(SOT-143 SMD)、カスタムシンボル・FP追加 |
 | 2026-06-17 | Q8: 2SC1971 → RD06HVF1 (RF MOSFET) 換装、バイアス回路変更 |
 | 2026-06-17 | KiCad 10 フットプリントライブラリ全面更新（12ファイル） |
